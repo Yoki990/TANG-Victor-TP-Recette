@@ -20,7 +20,7 @@ namespace Projet_Final_TANG_Victor.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return View("", recette);
+                return View("RecipeForm", recette);
             }
             return RedirectToAction("Index");
         }

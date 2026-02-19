@@ -6,8 +6,8 @@ namespace Projet_Final_TANG_Victor.Repository
 {
     public class IngredientRepository : IIngredientRepository
     {
-        private readonly IngredientDbContext _context;
-        public IngredientRepository(IngredientDbContext context)
+        private readonly AppDbContext _context;
+        public IngredientRepository(AppDbContext context)
         {
             _context = context;
         }

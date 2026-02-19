@@ -7,8 +7,8 @@ namespace Projet_Final_TANG_Victor.Repository
 {
     public class RecetteRepository : IRecetteRepository
     {
-        private readonly RecetteDbContext _context;
-        public RecetteRepository(RecetteDbContext context)
+        private readonly AppDbContext _context;
+        public RecetteRepository(AppDbContext context)
         {
             _context = context;
         }

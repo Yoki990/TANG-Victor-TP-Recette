@@ -1,35 +1,25 @@
-﻿@model Recette
+﻿@model Ingredient
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formulaire - Projet_Final_TANG_Victor</title>
+    <title>Formulaire Ingredient - Projet_Final_TANG_Victor</title>
 
 </head>
 <body>
     <div>
         <form asp-action="TreatForm" method="post">
             <div>
-                <label asp-for="Title"></label>
-                <input asp-for="Title" />
-                <span asp-validation-for="Title"></span>
+                <label asp-for="Name"></label>
+                <input asp-for="Name" />
+                <span asp-validation-for="Name"></span>
             </div>
             <div>
-                <label asp-for="Description"></label>
-                <input asp-for="Description" />
-                <span asp-validation-for="Description"></span>
-            </div>
-            <div>
-                <label asp-for="Instruction"></label>
-                <input asp-for="Instruction" />
-                <span asp-validation-for="Instruction"></span>
-            </div>
-            <div>
-                <label asp-for="Author"></label>
-                <input asp-for="Author" />
-                <span asp-validation-for="Author"></span>
+                <label asp-for="Category"></label>
+                <input asp-for="Category" />
+                <span asp-validation-for="Category"></span>
             </div>
 
             <div asp-validation-summary="All">
