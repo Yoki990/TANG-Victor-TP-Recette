@@ -10,15 +10,15 @@ namespace Projet_Final_TANG_Victor.Models
         [StringLength(255,ErrorMessage = "Saisie incorrecte")]
         public string Title {  get; set; }
         
-        [Required(ErrorMessage = "Nom de la Recette requise")]
+        [Required(ErrorMessage = "Description requise")]
         [StringLength(255, ErrorMessage = "Saisie incorrecte")]
         public string Description { get; set; }
         
-        [Required(ErrorMessage = "Nom de la Recette requise")]
+        [Required(ErrorMessage = "Instruction requise")]
         [StringLength(255, ErrorMessage = "Saisie incorrecte")]
         public string Instruction {  get; set; }
         
-        [Required(ErrorMessage = "Nom de la Recette requise")]
+        [Required(ErrorMessage = "Nom de l'auteur requis")]
         [StringLength(255, ErrorMessage = "Saisie incorrecte")]
         public string Author {  get; set; }
 

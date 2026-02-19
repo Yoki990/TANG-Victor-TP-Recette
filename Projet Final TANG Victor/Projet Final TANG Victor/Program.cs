@@ -16,6 +16,9 @@ builder.Services.AddDbContext<RecetteDbContext>(options =>
 );
 builder.Services.AddScoped<IRecetteRepository, RecetteRepository>();
 builder.Services.AddScoped<IRecetteService, RecetteService>();
+builder.Services.AddScoped<IIngredientRepository, IngredientRepository>();
+builder.Services.AddScoped<IIngredientService, IngredientService>();
+
 
 var app = builder.Build();
 

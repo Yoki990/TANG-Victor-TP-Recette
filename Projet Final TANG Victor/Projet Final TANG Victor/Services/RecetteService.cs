@@ -12,9 +12,14 @@ namespace Projet_Final_TANG_Victor.Services
             _recetteRepository = recetteRepository;
         }
 
-        public Recette AddRecette(Recette recette)
+        public Recette AddRecipe(Recette recette)
         {
             return _recetteRepository.AddRecipe(recette);
+        }
+
+        public List<Recette> GetAllRecipes()
+        {
+            return _recetteRepository.GetAllRecettes();
         }
     }
 }
