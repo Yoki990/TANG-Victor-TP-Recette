@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Projet_Final_TANG_Victor.Interfaces;
 using Projet_Final_TANG_Victor.Models;
+using Projet_Final_TANG_Victor.Models.DTO;
 
 namespace Projet_Final_TANG_Victor.Controllers
 {
@@ -41,7 +42,10 @@ namespace Projet_Final_TANG_Victor.Controllers
         {
             return View();
         }
-
+        public IActionResult DetailRecette(int id)
+        {
+            return View(_recipeService.GetRecipeDetail());
+        }
         /*public IActionResult UpdateRecipe(int id)
         {
 

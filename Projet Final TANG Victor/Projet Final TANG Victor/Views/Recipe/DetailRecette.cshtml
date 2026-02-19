@@ -1,0 +1,8 @@
+﻿@model RecetteDetailDtos
+<p>@Model.Recette.ToString()</p>
+
+
+@foreach (IngredientDTO ingredientDTO in Model.Ingredient)
+{
+	<p>@ingredientDTO.Ingredient.Name (@ingredientDTO.Quantity)</p>
+}
