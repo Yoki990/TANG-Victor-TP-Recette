@@ -1,5 +1,23 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model List<Ingredient>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire Ingredient - Projet_Final_TANG_Victor</title>
+
+</head>
+<body>
+    <div>
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            <p>Recette n°@i</p>
+            <ul>
+                <li class="IngredientTitle">@Model[i].Name</li>
+                <li class="IngredientDescription">@Model[i].Category</li>
+            </ul>
+        }
+    </div>
+</body>
+</html>

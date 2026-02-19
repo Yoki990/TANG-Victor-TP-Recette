@@ -21,12 +21,17 @@ namespace Projet_Final_TANG_Victor.Controllers
             {
                 return View("IngredientForm", ingredient);
             }
-            return RedirectToAction("Index");
+            return RedirectToAction("Yes");
         }
 
         public IActionResult IngredientForm()
         {
             return View(new Ingredient());
+        }
+
+        public IActionResult Yes()
+        {
+            return View();
         }
     }
 }

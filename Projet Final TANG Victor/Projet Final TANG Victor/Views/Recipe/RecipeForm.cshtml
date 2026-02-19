@@ -1,4 +1,4 @@
-﻿@model Recette
+﻿@model Recipe
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,9 +30,6 @@
                 <label asp-for="Author"></label>
                 <input asp-for="Author" />
                 <span asp-validation-for="Author"></span>
-            </div>
-
-            <div asp-validation-summary="All">
             </div>
 
             <button type="submit">Envoyer</button>

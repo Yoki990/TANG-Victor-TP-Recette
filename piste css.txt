@@ -1,0 +1,20 @@
+page
+donnee envoye etrecue
+
+quelles boutons choisir …
+
+une page par view
+
+text-muted dans le footer permet de changer la clarté du texte
+
+Recette:
+C - IngredientForm
+R - DisplayRecipe
+U - 
+D - 
+
+Ingrédient:
+C - RecipeForm
+R - DisplayIngredient
+U - 
+D - 
