@@ -8,9 +8,7 @@ namespace Projet_Final_TANG_Victor.Controllers
     public class RecetteController : Controller
     {
 
-        public List<Recette> recettes {  get; set; } = new List<Recette>();
-
-        private readonly IRecetteService _recetteService;
+        private readonly IRecetteService _recetteService;                
 
         public RecetteController(IRecetteService recetteService)
         {

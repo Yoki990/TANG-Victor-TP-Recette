@@ -1,7 +1,21 @@
+using Microsoft.EntityFrameworkCore;
+using Projet_Final_TANG_Victor.DbManager;
+using Projet_Final_TANG_Victor.Interfaces;
+using Projet_Final_TANG_Victor.Repository;
+using Projet_Final_TANG_Victor.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<RecetteDbContext>(options =>
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
+        )
+);
+builder.Services.AddScoped<IRecetteRepository, RecetteRepository>();
+builder.Services.AddScoped<IRecetteService, RecetteService>();
 
 var app = builder.Build();
 
