@@ -44,7 +44,7 @@ namespace Projet_Final_TANG_Victor.Migrations
                     b.ToTable("Ingredients");
                 });
 
-            modelBuilder.Entity("Projet_Final_TANG_Victor.Models.Recette", b =>
+            modelBuilder.Entity("Projet_Final_TANG_Victor.Models.Recipe", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -74,7 +74,52 @@ namespace Projet_Final_TANG_Victor.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Recettes");
+                    b.ToTable("Recipes");
+                });
+
+            modelBuilder.Entity("Projet_Final_TANG_Victor.Models.RecipeIngredient", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("IngredientId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<int>("RecipeId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("IngredientId");
+
+                    b.HasIndex("RecipeId");
+
+                    b.ToTable("RecipesIngredients");
+                });
+
+            modelBuilder.Entity("Projet_Final_TANG_Victor.Models.RecipeIngredient", b =>
+                {
+                    b.HasOne("Projet_Final_TANG_Victor.Models.Ingredient", "Ingredient")
+                        .WithMany()
+                        .HasForeignKey("IngredientId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Projet_Final_TANG_Victor.Models.Recipe", "Recipe")
+                        .WithMany()
+                        .HasForeignKey("RecipeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Ingredient");
+
+                    b.Navigation("Recipe");
                 });
 #pragma warning restore 612, 618
         }

@@ -7,6 +7,7 @@ namespace Projet_Final_TANG_Victor.Interfaces
     {
         public List<Recipe> GetAllRecipes();
         public Recipe AddRecipe (Recipe recipe);
-        public RecetteDetailDtos GetRecipeDetail(int id);
+        public RecipeDetailDtos GetRecipeDetail(int id);
+        /*public RIDTO UpdateRecipe(Recipe recipe);*/
     }
 }

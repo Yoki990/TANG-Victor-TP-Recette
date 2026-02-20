@@ -7,9 +7,9 @@ namespace Projet_Final_TANG_Victor.Services
     public class RecipeService : IRecipeService
     {
         private readonly IRecipeRepository _recetteRepository;
-        private readonly IRecetteIngredientRepo _recetteIngredientRepo;
+        private readonly IRecipeIngredientRepository _recetteIngredientRepo;
 
-        public RecipeService(IRecipeRepository recetteRepository, IRecetteIngredientRepo recetteIngredientRepo)
+        public RecipeService(IRecipeRepository recetteRepository, IRecipeIngredientRepository recetteIngredientRepo)
         {
             _recetteRepository = recetteRepository;
             _recetteIngredientRepo = recetteIngredientRepo;
@@ -22,15 +22,15 @@ namespace Projet_Final_TANG_Victor.Services
 
         public List<Recipe> GetAllRecipes()
         {
-            return _recetteRepository.GetAllRecettes();
+            return _recetteRepository.GetAllRecipes();
         }
 
-        public RecetteDetailDtos GetRecipeDetail(int id)
+        public RecipeDetailDtos GetRecipeDetail(int id)
         {
-            List<RecetteIngredient> rI = _recetteIngredientRepo.GetDetailRecipe(id);
-            RecetteDetailDtos rdto = new RecetteDetailDtos();
-            rdto.Recette = rI[0].Recette;
-            foreach (RecetteIngredient r1 in rI)
+            List<RecipeIngredient> rI = _recetteIngredientRepo.GetDetailRecipe(id);
+            RecipeDetailDtos rdto = new RecipeDetailDtos();
+            rdto.Recipe = rI[0].Recipe;
+            foreach (RecipeIngredient r1 in rI)
             {
                 rdto.Ingredient.Add(new IngredientDTO(r1.Ingredient, r1.Quantity));
             }

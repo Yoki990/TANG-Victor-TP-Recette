@@ -4,7 +4,7 @@ namespace Projet_Final_TANG_Victor.Interfaces
 {
     public interface IRecipeRepository
     {
-        public List<Recipe> GetAllRecettes();
+        public List<Recipe> GetAllRecipes();
         public Recipe AddRecipe(Recipe recipe);
     }
 }

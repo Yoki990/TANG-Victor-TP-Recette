@@ -5,45 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
     <script type="importmap"></script>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <!--<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />-->
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Projet_Final_TANG_Victor.styles.css" asp-append-version="true" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Recipe" asp-action="DisplayRecipe">Miam Fridge</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="dropdown">
-                    <button class="dropbouton">Recette</button>
-                    <div class="dropdown-content">
-                        <a asp-controller="Home" asp-action="Privacy">Ajouter</a>
-                        <a asp-controller="Home" asp-action="Privacy">Modifier</a>
-                        <a asp-controller="Home" asp-action="Privacy">Supprimer</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbouton">Ingrédients</button>
-                    <div class="dropdown-content">
-                        <a asp-controller="Home" asp-action="Privacy">Ajouter</a>
-                        <a asp-controller="Home" asp-action="Privacy">Modifier</a>
-                        <a asp-controller="Home" asp-action="Privacy">Supprimer</a>
-                    </div>
-                </div>
+         <p>
+        <a asp-area="" asp-controller="Recipe" asp-action="DisplayRecipe" class="Title">Miam Fridge</a><!--class="navbar-brand"-->
+        </p>
+        <div class="dropdown">
+            <button class="dropbouton">Recette</button>
+            <div class="dropdown-content">
+                <a asp-controller="Home" asp-action="Privacy">Ajouter</a>
+                <a asp-controller="Recipe" asp-action="Privacy">Modifier</a>
+                <a asp-controller="Home" asp-action="Privacy">Supprimer</a>
             </div>
-        </nav>
+        </div>
+        <div class="dropdown">
+            <button class="dropbouton">Ingrédients</button>
+            <div class="dropdown-content">
+                <a asp-controller="Home" asp-action="Privacy">Ajouter</a>
+                <a asp-controller="Home" asp-action="Privacy">Modifier</a>
+                <a asp-controller="Home" asp-action="Privacy">Supprimer</a>
+            </div>
+        </div>
+
     </header>
+
+
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted d-inline-flex">
+
+
+    <footer>
         <div class="container">
             <div style="text-decoration:underline">Contact:</div>
             <div>Email: projet@final.com</div>

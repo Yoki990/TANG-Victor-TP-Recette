@@ -5,24 +5,24 @@ using Projet_Final_TANG_Victor.Models;
 
 namespace Projet_Final_TANG_Victor.Repository
 {
-    public class RecetteRepository : IRecipeRepository
+    public class RecipeRepository : IRecipeRepository
     {
         private readonly AppDbContext _context;
-        public RecetteRepository(AppDbContext context)
+        public RecipeRepository(AppDbContext context)
         {
             _context = context;
         }
 
         public Recipe AddRecipe(Recipe recette)
         {
-            _context.Recettes.Add(recette);
+            _context.Recipes.Add(recette);
             _context.SaveChanges();
             return recette;
         }
 
-        public List<Recipe> GetAllRecettes()
+        public List<Recipe> GetAllRecipes()
         {
-            return _context.Recettes.ToList();
+            return _context.Recipes.ToList();
         }
     }
 }

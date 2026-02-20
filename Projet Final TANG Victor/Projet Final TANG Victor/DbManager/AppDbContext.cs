@@ -9,8 +9,8 @@ namespace Projet_Final_TANG_Victor.DbManager
 
         public DbSet<Ingredient> Ingredients { get; set; }
 
-        public DbSet<Recipe> Recettes { get; set; }
+        public DbSet<Recipe> Recipes { get; set; }
 
-        public DbSet<RecetteIngredient> RecettesIngredients { get; set; }
+        public DbSet<RecipeIngredient> RecipesIngredients { get; set; }
     }
 }
