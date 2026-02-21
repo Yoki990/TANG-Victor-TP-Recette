@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	
+
     <script type="importmap"></script>
     <!--<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />-->
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
@@ -11,24 +11,28 @@
 </head>
 <body>
     <header>
-         <p>
-        <a asp-area="" asp-controller="Recipe" asp-action="DisplayRecipe" class="Title">Miam Fridge</a><!--class="navbar-brand"-->
+        <p>
+            <a asp-area="" asp-controller="Recipe" asp-action="DisplayRecipe" class="Title">Miam Fridge</a><!--class="navbar-brand"-->
         </p>
-        <div class="dropdown">
-            <button class="dropbouton">Recette</button>
-            <div class="dropdown-content">
-                <a asp-controller="Home" asp-action="Privacy">Ajouter</a>
-                <a asp-controller="Recipe" asp-action="Privacy">Modifier</a>
-                <a asp-controller="Home" asp-action="Privacy">Supprimer</a>
-            </div>
-        </div>
-        <div class="dropdown">
-            <button class="dropbouton">Ingrédients</button>
-            <div class="dropdown-content">
-                <a asp-controller="Home" asp-action="Privacy">Ajouter</a>
-                <a asp-controller="Home" asp-action="Privacy">Modifier</a>
-                <a asp-controller="Home" asp-action="Privacy">Supprimer</a>
-            </div>
+        <div>
+            <ul class ="menu">
+                <li class="dropdown menu">
+                    <a href="#" class="dropbtn">Recette</a>
+                    <div class="dropdown-content">
+                        <a asp-controller="Home" asp-action="Privacy">Link 1</a>
+                        <a asp-controller="Home" asp-action="Privacy">Link 2</a>
+                        <a asp-controller="Home" asp-action="Privacy">Link 3</a>
+                    </div>
+                </li>
+                <li class="dropdown menu">
+                    <a href="#" class="dropbtn">Ingrédients</a>
+                    <div class="dropdown-content">
+                        <a asp-controller="Home" asp-action="Privacy">Link 1</a>
+                        <a asp-controller="Home" asp-action="Privacy">Link 2</a>
+                        <a asp-controller="Home" asp-action="Privacy">Link 3</a>
+                    </div>
+                </li>
+            </ul>
         </div>
 
     </header>
@@ -48,8 +52,8 @@
             <div style="text-decoration:underline">Contact:</div>
             <div>Email: projet@final.com</div>
             <div>Téléphone: 0123456789</div>
-            
-            <!-- &copy; 2026 - Projet_Final_TANG_Victor - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a> ->>
+
+            <!-- &copy; 2026 - Projet_Final_TANG_Victor - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a> -->
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
