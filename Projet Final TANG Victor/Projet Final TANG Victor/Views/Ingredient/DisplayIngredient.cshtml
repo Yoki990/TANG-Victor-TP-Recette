@@ -10,13 +10,34 @@
 </head>
 <body>
     
-    @for (int i = 1; i < Model.Count; i++)
+@*     @for (int i = 1; i < Model.Count; i++)
     {
         <p>Ingrédient n°@i</p>
         <ul>
             <li>lamb : @Model[i].Name</li>
             <li>da : @Model[i].Category</li>
         </ul>
-    }
+    } *@
+
+    <table name="Ingredients" id="ingredient">
+        <thead>
+            <tr>
+                <th> Id </th>
+                <th> Ingrédient </th>
+                <th> Catégorie </th>
+            </tr>
+        </thead>
+        @for (int i = 1; i < Model.Count; i++)
+        {
+            <tbody>
+                <tr>
+                    <td id="element">@i</td>
+                    <td id="element">@Model[i].Name</td>
+                    <td id="element">@Model[i].Category</td>
+                </tr>
+            </tbody>
+        }
+        
+    </table>
 </body>
 </html>

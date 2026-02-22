@@ -25,13 +25,13 @@
                     </div>
                 </li>
                 <li class="dropdown menu">
-                    <a href="#" class="dropbtn">Ingrédients</a>
-                    <div class="dropdown-content">
-                        <a asp-controller="Home" asp-action="Privacy">Link 1</a>
-                        <a asp-controller="Home" asp-action="Privacy">Link 2</a>
-                        <a asp-controller="Home" asp-action="Privacy">Link 3</a>
-                    </div>
+                    <a asp-controller="Ingredient" asp-action="DisplayIngredient" class="dropbtn">Liste des ingrédients</a>
                 </li>
+
+                <li class="dropdown menu">
+                    <a asp-controller="Recipe" asp-action="RecipeForm" class="dropbtn">Ajouter une recette</a>
+                </li>
+
             </ul>
         </div>
 

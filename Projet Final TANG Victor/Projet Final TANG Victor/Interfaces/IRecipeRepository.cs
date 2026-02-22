@@ -6,5 +6,7 @@ namespace Projet_Final_TANG_Victor.Interfaces
     {
         public List<Recipe> GetAllRecipes();
         public Recipe AddRecipe(Recipe recipe);
+
+        public Recipe DeleteRecipe(Recipe recipe);
     }
 }

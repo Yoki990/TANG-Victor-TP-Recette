@@ -42,30 +42,53 @@ namespace Projet_Final_TANG_Victor.Controllers
             return View(_recipeService.GetAllRecipes());
         }
 
-        /*[HttpPost]
-        public IActionResult UpdateRecipe(Recipe recipe)
+        public IActionResult DeleteRecipe(Recipe recipe)
         {
-            if (!ModelState.IsValid)
-            {
-                return View("RecipeForm", recipe);
-            }
-            recipe.Title = .Title;
-            recipe.Description = .Description;
-            recipe.Author = .Author;
-
+            
+            _recipeService.DeleteRecipe(recipe);
             return RedirectToAction("DisplayRecipe");
         }
 
-        public IActionResult UpdateForm()
+        /*[HttpPost]
+        public IActionResult UpTreatForm(Recipe recipe)
         {
-            return View(new Recipe()); ///Autre chose à mettre
+            if (!ModelState.IsValid)
+            {
+                return View("UpReForm", recipe);
+            }
+            _recipeService.AddRecipe(recipe);
+
+            return RedirectToAction("DisplayRecipe");
+        }
+        public IActionResult UpReForm(int id)
+        {
+            return View(new Recipe());
         }*/
-        
-        
-        
-        
-        
-        
+
+        /*        [HttpPost]
+                public IActionResult UpdateRecipeTreatForm(Recipe recipe, int id)
+                {
+                    if (!ModelState.IsValid)
+                    {
+                        return View("RecipeForm", recipe);
+                    }
+                    recipe.Title = .Title;
+                    recipe.Description = .Description;
+                    recipe.Author = .Author;
+
+                    return RedirectToAction("DisplayRecipe");
+                }
+
+                public IActionResult UpdateRecipeForm(int id)
+                {
+                    return View(new Recipe()); ///Autre chose à mettre
+                }
+        */
+
+
+
+
+
         /*[HttpPost]
         public IActionResult UpdateRecipe(Recipe recipe)
         {
@@ -75,11 +98,6 @@ namespace Projet_Final_TANG_Victor.Controllers
             }
             _recipeService.UpdateRecipe(recipe);
             return RedirectToAction("DisplayRecipe");
-        }*/
-
-        /*public IActionResult DeleteRecipe(int id)
-        {
-        
         }*/
     }
 }

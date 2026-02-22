@@ -15,9 +15,9 @@ namespace Projet_Final_TANG_Victor.Services
             _recetteIngredientRepo = recetteIngredientRepo;
         }
 
-        public Recipe AddRecipe(Recipe recette)
+        public Recipe AddRecipe(Recipe recipe)
         {
-            return _recetteRepository.AddRecipe(recette);
+            return _recetteRepository.AddRecipe(recipe);
         }
 
         public List<Recipe> GetAllRecipes()
@@ -36,6 +36,11 @@ namespace Projet_Final_TANG_Victor.Services
             }
             return rdto;
             
+        }
+
+        public Recipe DeleteRecipe(Recipe recipe)
+        {
+            return _recetteRepository.DeleteRecipe(recipe);
         }
     }
 }

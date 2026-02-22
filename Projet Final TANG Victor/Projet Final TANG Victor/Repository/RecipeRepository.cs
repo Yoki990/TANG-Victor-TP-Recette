@@ -13,16 +13,38 @@ namespace Projet_Final_TANG_Victor.Repository
             _context = context;
         }
 
-        public Recipe AddRecipe(Recipe recette)
+        public Recipe AddRecipe(Recipe recipe)
         {
-            _context.Recipes.Add(recette);
+            _context.Recipes.Add(recipe);
             _context.SaveChanges();
-            return recette;
+            return recipe;
         }
 
         public List<Recipe> GetAllRecipes()
         {
             return _context.Recipes.ToList();
+        }
+
+        /*public Recipe UpdateRecipe(Recipe recipe, int id)
+        {
+            Recipe recipeToUpdate = _context.Recipes.Find(id);
+           
+            x.Title = recipeToUpdate;
+
+
+
+
+           _context.Recipes.Update(recipe);
+           _context.SaveChanges();
+           return recipe;
+        }*/
+
+        public Recipe DeleteRecipe(Recipe recipe)
+        {
+            _context.Recipes.Remove(recipe);
+            _context.SaveChanges();
+            return recipe;
+
         }
     }
 }
