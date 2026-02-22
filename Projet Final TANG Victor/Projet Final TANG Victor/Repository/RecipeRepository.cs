@@ -25,19 +25,12 @@ namespace Projet_Final_TANG_Victor.Repository
             return _context.Recipes.ToList();
         }
 
-        /*public Recipe UpdateRecipe(Recipe recipe, int id)
+        public Recipe UpdateRecipe(Recipe recipe)
         {
-            Recipe recipeToUpdate = _context.Recipes.Find(id);
-           
-            x.Title = recipeToUpdate;
-
-
-
-
            _context.Recipes.Update(recipe);
            _context.SaveChanges();
            return recipe;
-        }*/
+        }
 
         public Recipe DeleteRecipe(Recipe recipe)
         {

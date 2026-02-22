@@ -42,6 +42,38 @@ namespace Projet_Final_TANG_Victor.Controllers
             return View(_recipeService.GetAllRecipes());
         }
 
+        [HttpPost]
+        public IActionResult UpdateRecipe(Recipe recipe)
+        {
+
+            /*var recipe = _recipeService.GetAllRecipes()[id];*/
+
+
+            /*recipe.Title = Title[id];
+            recipe.Description = re.Description;
+            recipe.Instruction = re.Instruction;
+            recipe.Author = re.Author;*/
+
+            if (!ModelState.IsValid)
+            {
+                return View("RecipeForm", recipe);
+            }
+            /*_recipeService.AddRecipe(recipe);*/
+
+
+            _recipeService.UpdateRecipe(recipe);
+            return RedirectToAction("DisplayRecipe");
+        }
+
+        public IActionResult UpdateRecipeForm(int id)
+        {
+            return View(_recipeService.GetRecipe(id));
+        }
+
+
+
+
+
         public IActionResult DeleteRecipe(int id)
         {
             

@@ -38,6 +38,16 @@ namespace Projet_Final_TANG_Victor.Services
             
         }
 
+        public Recipe GetRecipe(int id)
+        {
+            return GetRecipeDetail(id).Recipe;
+        }
+
+        public Recipe UpdateRecipe(Recipe recipe)
+        {
+            return _recetteRepository.UpdateRecipe(recipe);
+        }
+
         public Recipe DeleteRecipe(Recipe recipe)
         {
             return _recetteRepository.DeleteRecipe(recipe);

@@ -9,6 +9,10 @@ namespace Projet_Final_TANG_Victor.Interfaces
         public Recipe AddRecipe (Recipe recipe);
         public RecipeDetailDtos GetRecipeDetail(int id);
 
+        public Recipe GetRecipe(int id);
+
+        public Recipe UpdateRecipe(Recipe recipe);
+
         public Recipe DeleteRecipe(Recipe recipe);
 /*
         public Recipe UpdateRecipe (Recipe recipe, int id);*/
