@@ -42,9 +42,10 @@ namespace Projet_Final_TANG_Victor.Controllers
             return View(_recipeService.GetAllRecipes());
         }
 
-        public IActionResult DeleteRecipe(Recipe recipe)
+        public IActionResult DeleteRecipe(int id)
         {
             
+            var recipe = _recipeService.GetAllRecipes()[id];
             _recipeService.DeleteRecipe(recipe);
             return RedirectToAction("DisplayRecipe");
         }

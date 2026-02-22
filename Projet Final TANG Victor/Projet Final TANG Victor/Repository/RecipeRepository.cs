@@ -41,6 +41,8 @@ namespace Projet_Final_TANG_Victor.Repository
 
         public Recipe DeleteRecipe(Recipe recipe)
         {
+            
+           
             _context.Recipes.Remove(recipe);
             _context.SaveChanges();
             return recipe;
