@@ -1,5 +1,6 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+    background-color: RGBA(217,217,214, 50%);
 }
 
 @media  {
@@ -74,7 +75,7 @@ li.menu {
     }
 
         li a:hover, .dropdown:hover .dropbtn {
-            background-color: red;
+            background-color: orange;
         }
 
     li.dropdown{
