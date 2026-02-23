@@ -11,7 +11,7 @@ using Projet_Final_TANG_Victor.DbManager;
 namespace Projet_Final_TANG_Victor.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260220142708_ingredient")]
+    [Migration("20260223080520_ingredient")]
     partial class ingredient
     {
         /// <inheritdoc />

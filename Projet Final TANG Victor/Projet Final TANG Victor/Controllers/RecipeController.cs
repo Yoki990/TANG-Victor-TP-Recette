@@ -43,34 +43,33 @@ namespace Projet_Final_TANG_Victor.Controllers
         }
 
         [HttpPost]
-        public IActionResult UpdateRecipe(Recipe recipe)
+        public IActionResult UpdateTreatForm(Recipe recipe2, int id)
         {
-
-            /*var recipe = _recipeService.GetAllRecipes()[id];*/
-
-
-            /*recipe.Title = Title[id];
-            recipe.Description = re.Description;
-            recipe.Instruction = re.Instruction;
-            recipe.Author = re.Author;*/
-
             if (!ModelState.IsValid)
             {
-                return View("RecipeForm", recipe);
+                return View("UpdateRecipeForm", recipe2);
             }
-            /*_recipeService.AddRecipe(recipe);*/
 
+            var recipe = _recipeService.GetAllRecipes()[id];
 
-            _recipeService.UpdateRecipe(recipe);
+/*            var recipee = _recipeService.GetAllRecipes()[id].Title;
+            var re = _recipeService.GetAllRecipes()[id].Description;
+            var re2 = _recipeService.GetAllRecipes()[id].Instruction;
+            var re3 = _recipeService.GetAllRecipes()[id].Author;
+*/
+            recipe.Title = recipe2.Title;
+            recipe.Description = recipe2.Description;
+            recipe.Instruction = recipe2.Instruction;
+            recipe.Author = recipe2.Author;
+
+            _recipeService.UpdateRecipe(recipe, id);
+
             return RedirectToAction("DisplayRecipe");
         }
-
         public IActionResult UpdateRecipeForm(int id)
         {
-            return View(_recipeService.GetRecipe(id));
+            return View(_recipeService.GetAllRecipes()[id]);
         }
-
-
 
 
 
@@ -81,56 +80,5 @@ namespace Projet_Final_TANG_Victor.Controllers
             _recipeService.DeleteRecipe(recipe);
             return RedirectToAction("DisplayRecipe");
         }
-
-        /*[HttpPost]
-        public IActionResult UpTreatForm(Recipe recipe)
-        {
-            if (!ModelState.IsValid)
-            {
-                return View("UpReForm", recipe);
-            }
-            _recipeService.AddRecipe(recipe);
-
-            return RedirectToAction("DisplayRecipe");
-        }
-        public IActionResult UpReForm(int id)
-        {
-            return View(new Recipe());
-        }*/
-
-        /*        [HttpPost]
-                public IActionResult UpdateRecipeTreatForm(Recipe recipe, int id)
-                {
-                    if (!ModelState.IsValid)
-                    {
-                        return View("RecipeForm", recipe);
-                    }
-                    recipe.Title = .Title;
-                    recipe.Description = .Description;
-                    recipe.Author = .Author;
-
-                    return RedirectToAction("DisplayRecipe");
-                }
-
-                public IActionResult UpdateRecipeForm(int id)
-                {
-                    return View(new Recipe()); ///Autre chose à mettre
-                }
-        */
-
-
-
-
-
-        /*[HttpPost]
-        public IActionResult UpdateRecipe(Recipe recipe)
-        {
-            if (ModelState.IsValid)
-            {
-                return View("UpdateRecipe", recipe);
-            }
-            _recipeService.UpdateRecipe(recipe);
-            return RedirectToAction("DisplayRecipe");
-        }*/
     }
 }

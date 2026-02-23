@@ -43,7 +43,7 @@ namespace Projet_Final_TANG_Victor.Services
             return GetRecipeDetail(id).Recipe;
         }
 
-        public Recipe UpdateRecipe(Recipe recipe)
+        public Recipe UpdateRecipe(Recipe recipe, int id)
         {
             return _recetteRepository.UpdateRecipe(recipe);
         }

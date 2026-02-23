@@ -10,7 +10,8 @@
 </head>
 <body>
     <div>
-        <form asp-action="TreatForm" method="post">
+        <form id="Id" asp-action="UpdateTreatForm" method="post">
+             
             <div>
                 <label asp-for="Title"></label>
                 <input asp-for="Title" />
@@ -32,7 +33,7 @@
                 <span asp-validation-for="Author"></span>
             </div>
 
-            <button type="submit">Envoyer</button>
+            <button type="submit">Mettre à jour</button>
         </form>
     </div>
 </body>

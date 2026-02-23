@@ -11,10 +11,8 @@ namespace Projet_Final_TANG_Victor.Interfaces
 
         public Recipe GetRecipe(int id);
 
-        public Recipe UpdateRecipe(Recipe recipe);
+        public Recipe UpdateRecipe(Recipe recipe, int id);
 
         public Recipe DeleteRecipe(Recipe recipe);
-/*
-        public Recipe UpdateRecipe (Recipe recipe, int id);*/
     }
 }
