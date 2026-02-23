@@ -5,25 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <script type="importmap"></script>
-    <!--<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />-->
+
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Projet_Final_TANG_Victor.styles.css" asp-append-version="true" />
 </head>
 <body>
     <header>
         <p>
-            <a asp-area="" asp-controller="Recipe" asp-action="DisplayRecipe" class="Title">Miam Fridge</a><!--class="navbar-brand"-->
+            <a asp-area="" asp-controller="Recipe" asp-action="DisplayRecipe" class="Title">Miam Fridge</a>
         </p>
         <div>
             <ul class ="menu">
-                @* <li class="dropdown menu">
-                    <a href="#" class="dropbtn">Recette</a>
-                    <div class="dropdown-content">
-                        <a asp-controller="Home" asp-action="Privacy">Link 1</a>
-                        <a asp-controller="Home" asp-action="Privacy">Link 2</a>
-                        <a asp-controller="Home" asp-action="Privacy">Link 3</a>
-                    </div>
-                </li> *@
+
                 
                 <li class="dropdown menu">
                     <a asp-controller="Recipe" asp-action="DisplayRecipe" class="dropbtn">Accueil</a>
@@ -32,10 +25,6 @@
                 <li class="dropdown menu">
                     <a asp-controller="Recipe" asp-action="RecipeForm" class="dropbtn">Ajouter une recette</a>
                 </li>
-
-@*                 <li class="dropdown menu">
-                    <a asp-controller="Ingredient" asp-action="IngredientForm" class="dropbtn">Ajouter un ingrédient</a>
-                </li> *@
 
                 <li class="dropdown menu">
                     <a asp-controller="Ingredient" asp-action="DisplayIngredient" class="dropbtn">Liste des ingrédients</a>
@@ -61,8 +50,10 @@
             <div style="text-decoration:underline">Contact:</div>
             <div>Email: projet@final.com</div>
             <div>Téléphone: 0123456789</div>
-
-            <!-- &copy; 2026 - Projet_Final_TANG_Victor - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a> -->
+            <div>
+                <a href="https://github.com/Yoki990/TANG-Victor-TP-Recette" id="Github"> &#8594 Github</a>
+            </div>
+            &copy; 2026 - Projet Final TANG Victor
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

@@ -37,11 +37,6 @@ namespace Projet_Final_TANG_Victor.Controllers
             return View(_ingredientService.GetAllIngredients());
         }
 
-
-
-
-
-
         [HttpPost]
         public IActionResult UpdateTreatForm(Ingredient ingredient2, int id)
         {
@@ -64,11 +59,6 @@ namespace Projet_Final_TANG_Victor.Controllers
         {
             return View(_ingredientService.GetAllIngredients()[id]);
         }
-
-
-
-
-
 
         public IActionResult DeleteIngredient(int id)
         {

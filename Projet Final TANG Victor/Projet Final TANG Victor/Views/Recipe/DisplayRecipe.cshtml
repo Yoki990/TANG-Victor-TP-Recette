@@ -5,30 +5,32 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formulaire Recette - Projet_Final_TANG_Victor</title>
+    <title>Accueil - Projet_Final_TANG_Victor</title>
 </head>
 <body>
     <div>
         @for (int i = 0; i < Model.Count; i++)
         {
             <div class="box">
-                <p>Recette n°@i</p>
-                <ul>
-                    <li class="RecipeTitle">@Model[i].Title</li>
-                    <li class="RecipeDescription">@Model[i].Description</li>
-                    <li class="RecipeInstruction">@Model[i].Instruction</li>
-                    <li class="RecipeAuthor">@Model[i].Author</li>
-                </ul>
+                <p>@Model[i].Title.Trim() <strong>par</strong> @Model[i].Author.Trim()</p>
+
+
+                <p style="text-decoration:underline">Description:</p>
+                <p>@Model[i].Description.Trim()</p>
+
+                <p style="text-decoration:underline">Instructions:</p>
+                <p>@Model[i].Instruction.Trim()<p>
+
 
                 <a asp-controller="Recipe" asp-action="UpdateRecipeForm" asp-route-id="@i">
-                    <img src="https://tse1.mm.bing.net/th/id/OIP.cZtQ4BkboEqUvDV9USeo9gAAAA?rs=1&pid=ImgDetMain&o=7&rm=3"
+                    <img src="https://png.pngtree.com/png-vector/20230209/ourmid/pngtree-notebook-icon-png-image_6591697.png"
                          style="float:right; margin-left:10px; margin-top:-8em; width: 3em;" />
                 </a>
 
 
 
                 <a asp-area="" asp-controller="Recipe" asp-action="DeleteRecipe" asp-route-id="@i">
-                    <img src="https://st4.depositphotos.com/20524830/26021/i/450/depositphotos_260218458-stock-photo-trash-can-icon-primitive-set.jpg"
+                    <img src="https://toppng.com/public/uploads/preview/big-trash-can-vector-trash-can-icon-1156305906701r6eta2fm.png"
                          style="float:right; margin-left:10px; margin-top:-4em; width: 3em;" />
                 </a>
             </div>

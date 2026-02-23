@@ -107,6 +107,8 @@ li.menu {
     display: block;
 }
 
+
+
 .box {
     background-color: #ffffff;
     border: 2px solid #00bfff;
@@ -146,4 +148,9 @@ table, th, td {
     margin-right:auto;
     width: 20em;
     text-decoration:none;
+}
+
+#Github {
+    color: black;
+    text-decoration: none;
 }

@@ -24,17 +24,17 @@
             <tbody>
                 <tr>
                     <td id="element">@(i+1)</td>
-                    <td id="element">@Model[i].Name</td>
-                    <td id="element">@Model[i].Category</td>
+                    <td id="element">@Model[i].Name.Trim()</td>
+                    <td id="element">@Model[i].Category.Trim()</td>
                     <td id="element">
                         <a asp-controller="Ingredient" asp-action="UpdateIngredientForm" asp-route-id="@i">
-                            <img src="https://tse1.mm.bing.net/th/id/OIP.cZtQ4BkboEqUvDV9USeo9gAAAA?rs=1&pid=ImgDetMain&o=7&rm=3"
+                            <img src="https://png.pngtree.com/png-vector/20230209/ourmid/pngtree-notebook-icon-png-image_6591697.png" alt="Modification"
                                  style="width: 3em;" />
                         </a>
                     </td>
                     <td id="element">
                         <a asp-area="" asp-controller="Ingredient" asp-action="DeleteIngredient" asp-route-id="@i">
-                            <img src="https://st4.depositphotos.com/20524830/26021/i/450/depositphotos_260218458-stock-photo-trash-can-icon-primitive-set.jpg"
+                            <img src="https://toppng.com/public/uploads/preview/big-trash-can-vector-trash-can-icon-1156305906701r6eta2fm.png" alt="Supprimer"
                                  style="width: 3em;" />
                         </a>
 

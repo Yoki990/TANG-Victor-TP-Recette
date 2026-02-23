@@ -52,11 +52,6 @@ namespace Projet_Final_TANG_Victor.Controllers
 
             var recipe = _recipeService.GetAllRecipes()[id];
 
-/*            var recipee = _recipeService.GetAllRecipes()[id].Title;
-            var re = _recipeService.GetAllRecipes()[id].Description;
-            var re2 = _recipeService.GetAllRecipes()[id].Instruction;
-            var re3 = _recipeService.GetAllRecipes()[id].Author;
-*/
             recipe.Title = recipe2.Title;
             recipe.Description = recipe2.Description;
             recipe.Instruction = recipe2.Instruction;

@@ -11,29 +11,36 @@
 <body>
     <div>
         <form asp-action="TreatForm" method="post">
+            <br>
             <div>
                 <label asp-for="Title"></label>
                 <input asp-for="Title" />
                 <span asp-validation-for="Title"></span>
             </div>
+            <br>
             <div>
-                <label asp-for="Description"></label>
-                <input asp-for="Description" />
+                <span>Description</span>
+                
+                <textarea asp-for="Description"  rows="4" cols="100"> </textarea>
                 <span asp-validation-for="Description"></span>
             </div>
+            <br>
             <div>
-                <label asp-for="Instruction"></label>
-                <input asp-for="Instruction" />
+                <span>Instructions</span>
+                
+                <textarea asp-for="Instruction" rows="4" cols="100"> </textarea>
                 <span asp-validation-for="Instruction"></span>
             </div>
+            <br>
             <div>
-                <label asp-for="Author"></label>
+                <span>Auteur</span>
                 <input asp-for="Author" />
                 <span asp-validation-for="Author"></span>
             </div>
-
+            <br>
             <button type="submit">Envoyer</button>
         </form>
     </div>
+    <hr>
 </body>
 </html>
