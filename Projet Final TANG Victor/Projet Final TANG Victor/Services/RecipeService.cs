@@ -45,7 +45,7 @@ namespace Projet_Final_TANG_Victor.Services
 
         public Recipe UpdateRecipe(Recipe recipe, int id)
         {
-            return _recetteRepository.UpdateRecipe(recipe);
+            return _recetteRepository.UpdateRecipe(recipe, id);
         }
 
         public Recipe DeleteRecipe(Recipe recipe)

@@ -9,35 +9,41 @@
 
 </head>
 <body>
-    
-@*     @for (int i = 1; i < Model.Count; i++)
-    {
-        <p>Ingrédient n°@i</p>
-        <ul>
-            <li>lamb : @Model[i].Name</li>
-            <li>da : @Model[i].Category</li>
-        </ul>
-    } *@
 
     <table name="Ingredients" id="ingredient">
         <thead>
             <tr>
-                <th> Id </th>
-                <th> Ingrédient </th>
-                <th> Catégorie </th>
+                <th style="width:10em;"> Id </th>
+                <th style="width:20em;"> Ingrédient </th>
+                <th style="width:20em;"> Catégorie </th>
+                <th colspan="2"> Action </th>
             </tr>
         </thead>
-        @for (int i = 1; i < Model.Count; i++)
+        @for (int i = 0; i < Model.Count; i++)
         {
             <tbody>
                 <tr>
-                    <td id="element">@i</td>
+                    <td id="element">@(i+1)</td>
                     <td id="element">@Model[i].Name</td>
                     <td id="element">@Model[i].Category</td>
+                    <td id="element">
+                        <a asp-controller="Ingredient" asp-action="UpdateIngredientForm" asp-route-id="@i">
+                            <img src="https://tse1.mm.bing.net/th/id/OIP.cZtQ4BkboEqUvDV9USeo9gAAAA?rs=1&pid=ImgDetMain&o=7&rm=3"
+                                 style="width: 3em;" />
+                        </a>
+                    </td>
+                    <td id="element">
+                        <a asp-area="" asp-controller="Ingredient" asp-action="DeleteIngredient" asp-route-id="@i">
+                            <img src="https://st4.depositphotos.com/20524830/26021/i/450/depositphotos_260218458-stock-photo-trash-can-icon-primitive-set.jpg"
+                                 style="width: 3em;" />
+                        </a>
+
+                    </td>
                 </tr>
             </tbody>
         }
         
     </table>
+    <hr>
 </body>
 </html>

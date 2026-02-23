@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -8,6 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Ingredient\UpdateIngredientForm.cshtml" />
     <None Include="Views\Recipe\UpdateRecipeForm.cshtml" />
   </ItemGroup>
 

@@ -23,5 +23,23 @@ namespace Projet_Final_TANG_Victor.Repository
         {
             return _context.Ingredients.ToList();
         }
+
+        public Ingredient UpdateIngredient(Ingredient ingredient, int Id)
+        {
+            _context.Ingredients.FirstOrDefault(x => x.Id == Id);
+            _context.Ingredients.Update(ingredient);
+            _context.SaveChanges();
+            return ingredient;
+        }
+
+        public Ingredient DeleteIngredient(Ingredient ingredient)
+        {
+
+
+            _context.Ingredients.Remove(ingredient);
+            _context.SaveChanges();
+            return ingredient;
+
+        }
     }
 }

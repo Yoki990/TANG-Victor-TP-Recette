@@ -6,5 +6,9 @@ namespace Projet_Final_TANG_Victor.Interfaces
     {
         public List<Ingredient> GetAllIngredients();
         public Ingredient AddIngredient(Ingredient ingredient);
+
+        public Ingredient UpdateIngredient(Ingredient ingredient, int id);
+
+        public Ingredient DeleteIngredient(Ingredient ingredient);
     }
 }
