@@ -136,5 +136,53 @@ Vous êtes actuellement sur la page d'accueil du site.
 
 
 
-Pour pouvoir ajouter une recette, vous pouvez cliquer sur le bouton prévu à cet effet, à rentrer les informations demandés et de cliquer sur Envoyer.
+<ins>Pour les recettes:</ins>
+
+
+
+Pour pouvoir ajouter une recette, vous pouvez cliquer sur le bouton prévu à cet effet, à rentrer les informations demandés et de valider.
+
+
+
+Pour pouvoir modifier une recette, vous pouvez cliquer le bloc note attitré à cette recette, à suivre les instructions et de valider.
+
+
+
+Pour pouvoir supprimer une recette, vous pouvez cliquer le bloc note attitré à cette recette, et la recette disparaîtra.
+
+
+
+<br>
+
+
+
+<ins>Pour les recettes:</ins>
+
+
+
+Pour accéder à la liste des ingrédients, il faut cliquer sur "Liste des ingrédients"
+
+
+
+Pour pouvoir ajouter un ingrédient, il suffit de cliquer sur le bouton prévu à cet effet, à rentrer les informations demandés et de valider.
+
+
+
+Pour pouvoir modifier et supprimer un ingrédient, ce sont les mêmes étapes que pour les recettes.
+
+
+
+
+
+<br>
+
+
+
+<ins>Accueil:</ins>
+
+
+
+Pour revenir à l'accueil, soit vous cliquer sur le bouton prévu à cette effet, ou de cliquer sur "Miam Fridge".
+
+
 
