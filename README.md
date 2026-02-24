@@ -7,8 +7,14 @@ Bienvenue sur le site "Miam Fridge"
 Avant de consulter mon site et le code derrière ce dernier, il faut installer:
 
 * Git : lien DL git
-* Visual Studio (en l'installant via le .exe)
+* Visual Studio (VS) (en l'installant via le .exe)
 * MySQL Workbench (pour faire fonctionner ma base de données)
+
+
+
+
+
+* Pour Git :
 
 
 
@@ -22,7 +28,35 @@ Ceci étant fait, voici le lien de mon Git pour pouvoir récupérer mon travail.
 
 
 
-Po
+* Pour MySQL Workbench:
+
+
+
+Après installation de ce dernier et d'ouvrir ma base de données, vous devez copier le dossier "SQL-Portable" qui est dans le dossier compressé et le coller sur le disque C:.
+
+
+
+Ceci étant      il faut aller dans le dossier "SQL-Portable", une 
+
+
+
+
+
+
+
+
+
+* Pour Visual Studio:
+
+
+
+Après installation de VS, pour voir  le code que j'ai crée pour le site, …
+
+
+
+<br>
+
+<br>
 
 
 
@@ -34,7 +68,7 @@ Po
 
 
 
-Pour aller sur mon site internet, c'est le localhost:5253
+Pour aller sur mon site internet, le lien internet est: localhost:5253
 
 
 
