@@ -58,7 +58,7 @@ Après installation de MySQL et d'ouvrir ma base de données, vous devez copier 
 
 
 
-Ceci étant fait, vous pouvez ouvrir le dossier "SQL-Portable". Vous pouvez faire un clic droit dans le dossier, cliquer sur "Ouvrir dans le Terminal" puis entrer la commande `.\\\\start.bat`. Faire cela permettra de lancer et de modifier la base de données.
+Ceci étant fait, vous pouvez ouvrir le dossier "SQL-Portable". Vous pouvez faire un clic droit dans le dossier, cliquer sur "Ouvrir dans le Terminal" puis entrer la commande `.\\\\\\\\start.bat`. Faire cela permettra de lancer et de modifier la base de données.
 
 :warning: Attention à ne pas fermer la console pendant l'utilisation de la BDD.
 
@@ -194,5 +194,5 @@ Merci à vous d'avoir consulté mon site et sa conception :wink:
 
 
 
-***:copyright: Février 2026 - Projet Final TANG Victor***
+***© Février 2026 - Projet Final TANG Victor***
 
