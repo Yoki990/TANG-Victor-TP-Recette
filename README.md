@@ -12,7 +12,7 @@ Avant de consulter mon site et le code derrière ce dernier, il faut installer:
 
 * Git : https://git-scm.com/
 * Visual Studio ou *VS* (en l'installant via le .exe)
-* MySQL Workbench (pour faire fonctionner ma base de données ou *BDD* )
+* MySQL Workbench (pour faire fonctionner ma base de données ou *BDD* 
 
 
 
@@ -28,7 +28,7 @@ Avant de consulter mon site et le code derrière ce dernier, il faut installer:
 
 
 
-Pendant l'installation de Git, il y aura un moment où ça va vous demander une branche pour le Git, si il n'est pas inscrit "main", veuillez modifier en mettant "main" puis finissez l'installation.
+Pendant l'installation de Git, il y aura un moment où ça va vous demander une branche pour le Git, s'il n'est pas inscrit "main", veuillez modifier en mettant "main" puis finissez l'installation.
 
 
 
@@ -36,7 +36,7 @@ Après installation de Git, pour accéder à mon travail, il faut faire un clic 
 
 
 
-Ceci étant fait, voici le lien de mon Git pour pouvoir récupérer mon travail. Il faut taper dans la console:
+Ceci étant fait, voici le lien de mon Git à copier coller pour pouvoir récupérer mon travail:
 
 `.git clone https://github.com/Yoki990/TANG-Victor-TP-Recette`
 
@@ -50,7 +50,7 @@ Ceci étant fait, voici le lien de mon Git pour pouvoir récupérer mon travail.
 
 
 
-Après installation de ce dernier et d'ouvrir ma base de données, vous devez copier le dossier "SQL-Portable" qui est dans le dossier compressé et le coller sur le disque C: .
+Après installation de MySQL et d'ouvrir ma base de données, vous devez copier le dossier "SQL-Portable" qui est dans le dossier compressé et le coller sur le disque C: .
 
 
 
@@ -58,9 +58,9 @@ Après installation de ce dernier et d'ouvrir ma base de données, vous devez co
 
 
 
-Ceci étant fait, vous pouvez ouvrir le dossier "SQL-Portable". Vous pouvez faire un clic droit dans le dossier, cliquer sur "Ouvrir dans le Terminal" puis entrer la commande '.\\start.bat'. Faire cela permettra de lancer et de modifier la base de données.
+Ceci étant fait, vous pouvez ouvrir le dossier "SQL-Portable". Vous pouvez faire un clic droit dans le dossier, cliquer sur "Ouvrir dans le Terminal" puis entrer la commande `.\\start.bat`. Faire cela permettra de lancer et de modifier la base de données.
 
-:warning: Attention à ne pas fermer la console qui vient de s'ouvrir.
+:warning: Attention à ne pas fermer la console pendant l'utilisation de la BDD.
 
  
 
@@ -68,7 +68,7 @@ Ceci étant fait, vous pouvez ouvrir le dossier "SQL-Portable". Vous pouvez fair
 
 
 
-Ouvrez "My SQL Workbench". Vous devez cliquer sur le "+" à côté pour créer une BDD, vous pouvez mettre le nom que vous voulez dans "Connection Name" et de cliquer sur OK.
+Ouvrez "My SQL Workbench". Il faut cliquer sur le "+" à côté pour créer une BDD, vous pouvez mettre le nomque vous voulez dans "Connection Name" , de laisser le reste tel quel et de cliquer sur OK.
 
 
 
@@ -76,7 +76,7 @@ Ouvrez "My SQL Workbench". Vous devez cliquer sur le "+" à côté pour créer u
 
 
 
-Vous devez créer une database en tapant dans la console `CREATE DATABASE finalproject`, et cliquer sur l'éclair pour créer la database. Puis vous pouvez réduire la fenêtre et la console sans fermer.
+Pour pouvoir créer une database, il faut taper dans la console `CREATE DATABASE finalproject`, et cliquer sur l'éclair pour créer la database. Enfin, vous pouvez réduire la fenêtre et la console sans fermer.
 
 
 
@@ -88,7 +88,7 @@ Vous devez créer une database en tapant dans la console `CREATE DATABASE finalp
 
 
 
-Après installation de VS, pour voir le code que j'ai crée pour le site, le nom du document est "Projet Final TANG Victor", il se trouve dans le dossier du même nom.
+Après installation de VS, pour voir le code que j'ai crée pour le site, le nom du document à consulter est "Projet Final TANG Victor", il se trouve dans le dossier du même nom.
 
 
 
@@ -118,7 +118,7 @@ Une dernière étape avant d'aller sur le site : :grin:
 
 
 
-Une fois toutes ces installations faites, pour pouvoir accès à mon site internet, le lien internet est: http://localhost:5253
+Une fois toutes ces installations faites, pour pouvoir accès à mon site internet en tapant dans un moteur de recherche http://localhost:5253
 
 
 
@@ -185,4 +185,10 @@ Pour pouvoir modifier et supprimer un ingrédient, ce sont les mêmes étapes qu
 Pour revenir à l'accueil, soit vous cliquer sur le bouton prévu à cette effet, ou de cliquer sur "Miam Fridge".
 
 
+
+Merci à vous d'avoir consulté mon site et sa conception :wink:
+
+
+
+\&copy; 2026 - Projet Final TANG Victor
 
