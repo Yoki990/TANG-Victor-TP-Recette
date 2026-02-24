@@ -22,7 +22,7 @@ Avant de consulter mon site et le code derrière ce dernier, il faut installer:
 
 
 
-{\*\*Installation:\*\*}
+**Installation:**
 
 * Pour Git :
 
@@ -38,7 +38,7 @@ Après installation de Git, pour accéder à mon travail, il faut faire un clic 
 
 Ceci étant fait, voici le lien de mon Git pour pouvoir récupérer mon travail. Il faut taper dans la console:
 
-`.git clone https://github.com/Yoki990/TANG-Victor-TP-Recette` .
+`.git clone https://github.com/Yoki990/TANG-Victor-TP-Recette`
 
 
 
@@ -76,7 +76,7 @@ Ouvrez "My SQL Workbench". Vous devez cliquer sur le "+" à côté pour créer u
 
 
 
-Vous devez créer une database en tapant dans la console "CREATE DATABASE finalproject", et cliquer sur l'éclair pour créer la database. Puis vous pouvez réduire la fenêtre et la console sans fermer.
+Vous devez créer une database en tapant dans la console `CREATE DATABASE finalproject`, et cliquer sur l'éclair pour créer la database. Puis vous pouvez réduire la fenêtre et la console sans fermer.
 
 
 
