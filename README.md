@@ -2,7 +2,7 @@
 
 
 
-Avant de consulter mon site et le code derrière ce dernier, il faut installer:
+Avant de consulter mon site et tout le code, il faut installer:
 
 * Git : https://git-scm.com/
 * Visual Studio ou *VS* (en l'installant via le .exe)
@@ -96,15 +96,21 @@ Après installation de VS, pour voir le code que j'ai crée pour le site, le nom
 
 
 
-Pour pouvoir voir mon site en chair et en pixel, il faut aller dans "Affichage" → "Terminal"
+Pour utiliser mon site facilement, il faut installer quelques packages, il faut aller dans "Projet" → "Gérer les packages NuGet".
 
+Les packages a installés sont :
 
+1. *Microsoft.EntityFrameworkCore* avec la dernière version débutant par "9.0"
+2. *Microsoft.EntityFramework.Tools* avec la dernière version débutant par "9.0"
+3. *Pomelo.EntityFrameworkCore.MySql* avec la dernière version
+
+&nbsp;						
 
 <ins> Étape 3: </ins>
 
 
 
-Dans la console qui est apparue, il faut taper la commande `cd  P` puis vous appuyez sur la touche Tab pour afficher le nom complet.
+Pour pouvoir voir mon site en chair et en pixel, il faut aller dans "Affichage" → "Terminal". Dans la console qui est apparue, il faut taper la commande `cd  P` puis vous appuyez sur la touche Tab pour afficher le nom complet.
 
 
 
