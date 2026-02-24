@@ -1,12 +1,14 @@
-# **Bienvenue sur le site *Miam Fridge***
+Bienvenue sur le site Miam Fridge
 
 
 
 Avant de consulter mon site et tout le code, il faut installer:
 
-* Git : https://git-scm.com/
-* Visual Studio ou *VS* (en l'installant via le .exe)
-* MySQL Workbench (pour faire fonctionner ma base de données ou *BDD*)
+Git : https://git-scm.com/
+
+Visual Studio ou VS (en l'installant via le .exe)
+
+MySQL Workbench (pour faire fonctionner ma base de données ou BDD)
 
 
 
@@ -14,9 +16,9 @@ Avant de consulter mon site et tout le code, il faut installer:
 
 
 
-**Installation:**
+Installation:
 
-* Pour Git :
+Pour Git :
 
 
 
@@ -38,7 +40,7 @@ Ceci étant fait, voici le lien de mon Git à copier coller pour pouvoir récup�
 
 
 
-* Pour MySQL Workbench:
+Pour MySQL Workbench:
 
 
 
@@ -80,7 +82,7 @@ Pour pouvoir créer une database, il faut cliquer sur la connexion fraichement c
 
 
 
-* Pour Visual Studio:
+Pour Visual Studio:
 
 
 
@@ -100,11 +102,11 @@ Pour utiliser mon site facilement, il faut installer quelques packages, il faut 
 
 Les packages a installés sont :
 
-1. *Microsoft.EntityFrameworkCore* avec la dernière version débutant par "9.0"
-2. *Microsoft.EntityFramework.Tools* avec la dernière version débutant par "9.0"
-3. *Pomelo.EntityFrameworkCore.MySql* avec la dernière version
+Microsoft.EntityFrameworkCore avec la dernière version débutant par "9.0"
 
- 
+Microsoft.EntityFramework.Tools avec la dernière version débutant par "9.0"
+
+Pomelo.EntityFrameworkCore.MySql avec la dernière version 
 
 <ins> Étape 3: </ins>
 
@@ -124,7 +126,7 @@ Une dernière étape avant d'aller sur le site : :grin:
 
 
 
-Une fois toutes ces installations faites, pour pouvoir accès à mon site internet en tapant dans un moteur de recherche http://localhost:5253
+Une fois toutes ces installations faites, pour pouvoir accès à mon site internet en tapant dans un moteur de recherche ou en cliquant sur le lien http://localhost:5253
 
 
 
@@ -132,15 +134,15 @@ Une fois toutes ces installations faites, pour pouvoir accès à mon site intern
 
 
 
-**Comment marche le site Miam Fridge?**
+Comment marche le site Miam Fridge?
 
 
 
-Vous êtes actuellement sur la page d'accueil du site.
+Vous êtes actuellement sur la page d'accueil du site qui affiche la liste des recettes ajoutées.
 
 
 
-<ins>**Pour les recettes:**</ins>
+<ins>Pour les recettes:</ins>
 
 
 
@@ -160,7 +162,7 @@ Pour pouvoir supprimer une recette, vous pouvez cliquer le bloc note attitré à
 
 
 
-<ins>**Pour les ingrédients:**</ins>
+<ins>Pour les ingrédients:</ins>
 
 
 
@@ -182,7 +184,7 @@ Pour pouvoir modifier et supprimer un ingrédient, ce sont les mêmes étapes qu
 
 
 
-<ins>**Accueil:**</ins>
+<ins>Accueil:</ins>
 
 
 
@@ -190,7 +192,11 @@ Pour revenir à l'accueil, soit vous cliquer sur le bouton prévu à cet effet, 
 
 
 
-Merci à vous d'avoir consulté mon site et sa conception :wink:
+<br>
+
+
+
+Merci à vous d'avoir consulté mon site :wink:
 
 
 
@@ -198,5 +204,5 @@ Merci à vous d'avoir consulté mon site et sa conception :wink:
 
 
 
-***© Février 2026 - Projet Final TANG Victor***
+© Février 2026 - Projet Final TANG Victor
 
