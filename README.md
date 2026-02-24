@@ -40,7 +40,7 @@ Après installation de Git, pour accéder à mon travail, il faut faire un clic 
 
 Ceci étant fait, voici le lien de mon Git pour pouvoir récupérer mon travail. Il faut taper dans la console:
 
-'.git clone https://github.com/Yoki990/TANG-Victor-TP-Recette' .
+`.git clone https://github.com/Yoki990/TANG-Victor-TP-Recette` .
 
 
 
@@ -98,19 +98,15 @@ Après installation de VS, pour voir le code que j'ai crée pour le site, le nom
 
 
 
-Pour pouvoir voir mon site en chair et en pixel, il faut aller dans "Affichage" \&#8594 "Terminal"
+Pour pouvoir voir mon site en chair et en pixel, il faut aller dans "Affichage" → "Terminal"
 
 
 
+<ins> Étape 3: </ins>
 
 
 
-
-
-
-
-
-
+Dans la console qui est apparue, il faut taper la commande `cd  P` puis vous appuyez sur la touche Tab pour afficher le nom complet.
 
 
 
@@ -120,23 +116,5 @@ Pour pouvoir voir mon site en chair et en pixel, il faut aller dans "Affichage" 
 
 
 
-
-
-
-
-
-
-
-
-Pour aller sur mon site internet, le lien internet est: localhost:5253
-
-
-
-
-
-
-
-
-
-Pour accéder à mon site
+Une fois toutes ces installations faites, pour pouvoir accès à mon site internet, le lien internet est: localhost:5253.
 
