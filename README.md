@@ -40,7 +40,7 @@ Ceci étant fait, voici le lien de mon Git pour pouvoir récupérer mon travail.
 
 
 
-<style="text-decoration:underline"> Étape 1:
+<ins> Étape 1: </ins>
 
 
 
