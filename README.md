@@ -10,15 +10,19 @@ Bienvenue sur le site "Miam Fridge"
 
 Avant de consulter mon site et le code derrière ce dernier, il faut installer:
 
-* Git : lien DL git
-* Visual Studio (VS) (en l'installant via le .exe)
-* MySQL Workbench (pour faire fonctionner ma base de données)
+* Git : https://git-scm.com/ et de faire les instructions d'installation
+* Visual Studio (en l'installant via le .exe) \[VS]
+* MySQL Workbench (pour faire fonctionner ma base de données \[BDD] )
 
 
 
 <br>
 
 <br>
+
+
+
+<ins> \*\*Installation:\*\* </ins>
 
 
 
@@ -26,7 +30,11 @@ Avant de consulter mon site et le code derrière ce dernier, il faut installer:
 
 
 
-Après installation de git, pour accéder à mon travail, il faut faire un clic droit sur le bureau, cliquer sur "Afficher d'autres options" puis sur "Open Git Bash here".
+Pendant l'installation de Git, il y aura un moment où ça va vous demander une branche pour le Git, si il n'est pas inscrit "main", veuillez modifier en mettant "main" puis finissez l'installation.
+
+
+
+Après installation de Git, pour accéder à mon travail, il faut faire un clic droit sur le bureau, cliquer sur "Afficher d'autres options" puis sur "Open Git Bash here".
 
 
 
@@ -48,11 +56,61 @@ Après installation de ce dernier et d'ouvrir ma base de données, vous devez co
 
 
 
-Étape 2:
+<ins> Étape 2: </ins>
 
 
 
 Ceci étant fait, vous pouvez ouvrir le dossier "SQL-Portable". Vous pouvez faire un clic droit dans le dossier, cliquer sur "Ouvrir dans le Terminal" puis entrer la commande ".\\start.bat". Faire cela permettra de lancer et de modifier la base de données.
+
+Attention: ne pas fermer la console qui vient de s'ouvrir.
+
+&nbsp;
+
+<ins> Étape 3: </ins>
+
+
+
+Ouvrez "My SQL Workbench". Vous devez cliquer sur le "+" à côté pour créer une BDD, vous pouvez mettre le nom que vous voulez dans "Connection Name" et de cliquer sur OK.
+
+
+
+<ins> Étape 4: </ins>
+
+
+
+Vous devez créer une database en tapant dans la console "CREATE DATABASE finalproject", et cliquer sur l'éclair pour créer la database. Puis vous pouvez réduire la fenêtre sans fermer 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
