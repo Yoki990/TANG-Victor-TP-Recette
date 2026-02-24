@@ -2,6 +2,10 @@ Bienvenue sur le site "Miam Fridge"
 
 
 
+<br>
+
+<br>
+
 
 
 Avant de consulter mon site et le code derrière ce dernier, il faut installer:
@@ -11,6 +15,10 @@ Avant de consulter mon site et le code derrière ce dernier, il faut installer:
 * MySQL Workbench (pour faire fonctionner ma base de données)
 
 
+
+<br>
+
+<br>
 
 
 
@@ -32,13 +40,19 @@ Ceci étant fait, voici le lien de mon Git pour pouvoir récupérer mon travail.
 
 
 
-Après installation de ce dernier et d'ouvrir ma base de données, vous devez copier le dossier "SQL-Portable" qui est dans le dossier compressé et le coller sur le disque C:.
+<style="text-decoration:underline"> Étape 1:
 
 
 
-Ceci étant      il faut aller dans le dossier "SQL-Portable", une 
+Après installation de ce dernier et d'ouvrir ma base de données, vous devez copier le dossier "SQL-Portable" qui est dans le dossier compressé et le coller sur le disque C: .
 
 
+
+Étape 2:
+
+
+
+Ceci étant fait, vous pouvez ouvrir le dossier "SQL-Portable". Vous pouvez faire un clic droit dans le dossier, cliquer sur "Ouvrir dans le Terminal" puis entrer la commande ".\\start.bat". Faire cela permettra de lancer et de modifier la base de données.
 
 
 
@@ -51,6 +65,18 @@ Ceci étant      il faut aller dans le dossier "SQL-Portable", une
 
 
 Après installation de VS, pour voir  le code que j'ai crée pour le site, …
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
