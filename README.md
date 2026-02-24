@@ -50,7 +50,7 @@ Ceci étant fait, voici le lien de mon Git à copier coller pour pouvoir récup�
 
 
 
-Après installation de MySQL et d'ouvrir ma base de données, vous devez copier le dossier "SQL-Portable" fourni et le coller sur le disque C: .
+Après installation de MySQL, veuillez copier le dossier "SQL-Portable" fourni dans le dossier compressé et le coller sur le disque C: .
 
 
 
@@ -58,7 +58,7 @@ Après installation de MySQL et d'ouvrir ma base de données, vous devez copier 
 
 
 
-Ceci étant fait, vous pouvez ouvrir le dossier "SQL-Portable". Vous pouvez faire un clic droit dans le dossier, cliquer sur "Ouvrir dans le Terminal" puis entrer la commande `.start.bat`. Faire cela permettra de lancer et de modifier la base de données.
+Ceci étant fait, vous pouvez ouvrir le dossier "SQL-Portable". Vous pouvez faire un clic droit dans le dossier, cliquer sur "Ouvrir dans le Terminal" puis entrer la commande `.\\start.bat`. Cela permettra de pouvoir lancer et de modifier la base de données.
 
 :warning: Attention à ne pas fermer la console pendant l'utilisation de la BDD.
 
