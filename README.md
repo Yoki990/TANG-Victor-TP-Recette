@@ -64,7 +64,7 @@ Ceci étant fait, vous pouvez ouvrir le dossier "SQL-Portable". Vous pouvez fair
 
 
 
-Ouvrez "My SQL Workbench". Il faut cliquer sur le "+" à côté de "MySQL Connections" pour créer une BDD, vous pouvez mettre le nom que vous souhaitez dans "Connection Name" , de laisser le reste tel quel et de cliquer sur OK.
+Ouvrez "My SQL Workbench". Il faut cliquer sur le "+" à côté de "MySQL Connections" pour créer une BDD, vous pouvez mettre le nom que vous souhaitez dans "Connection Name" , laisser le reste des infos affichés tels quels et de cliquer sur OK.
 
 
 
@@ -72,7 +72,7 @@ Ouvrez "My SQL Workbench". Il faut cliquer sur le "+" à côté de "MySQL Connec
 
 
 
-Pour pouvoir créer une database, il faut cliquer sur la connexion fraichement créer, taper dans la console `CREATE DATABASE finalproject`, et cliquer sur l'éclair pour créer la database. Enfin, vous pouvez réduire les fenêtres de MySQL et de la console.
+Pour pouvoir créer une database, il faut cliquer sur la connexion fraichement créée, taper dans la console `CREATE DATABASE finalproject`, et cliquer sur l'éclair pour créer la database. Enfin, vous pouvez réduire les fenêtres de MySQL et de la console.
 
 
 
