@@ -22,7 +22,7 @@ Avant de consulter mon site et le code derrière ce dernier, il faut installer:
 
 
 
-\_\_ \_\_Installation:\_\_ \_\_
+Installation:
 
 * Pour Git :
 
@@ -60,7 +60,7 @@ Après installation de ce dernier et d'ouvrir ma base de données, vous devez co
 
 Ceci étant fait, vous pouvez ouvrir le dossier "SQL-Portable". Vous pouvez faire un clic droit dans le dossier, cliquer sur "Ouvrir dans le Terminal" puis entrer la commande '.\\start.bat'. Faire cela permettra de lancer et de modifier la base de données.
 
-\*\*Attention\*\* à ne pas fermer la console qui vient de s'ouvrir.
+:warning: Attention à ne pas fermer la console qui vient de s'ouvrir.
 
  
 
