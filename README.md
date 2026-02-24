@@ -22,7 +22,7 @@ Avant de consulter mon site et le code derrière ce dernier, il faut installer:
 
 
 
-\*\*<ins> Installation: </ins>\*\*
+\*\* Installation:\*\*
 
 
 
@@ -40,7 +40,7 @@ Après installation de Git, pour accéder à mon travail, il faut faire un clic 
 
 Ceci étant fait, voici le lien de mon Git pour pouvoir récupérer mon travail. Il faut taper dans la console:
 
-".git clone https://github.com/Yoki990/TANG-Victor-TP-Recette" .
+'.git clone https://github.com/Yoki990/TANG-Victor-TP-Recette' .
 
 
 
@@ -60,9 +60,9 @@ Après installation de ce dernier et d'ouvrir ma base de données, vous devez co
 
 
 
-Ceci étant fait, vous pouvez ouvrir le dossier "SQL-Portable". Vous pouvez faire un clic droit dans le dossier, cliquer sur "Ouvrir dans le Terminal" puis entrer la commande ".\\start.bat". Faire cela permettra de lancer et de modifier la base de données.
+Ceci étant fait, vous pouvez ouvrir le dossier "SQL-Portable". Vous pouvez faire un clic droit dans le dossier, cliquer sur "Ouvrir dans le Terminal" puis entrer la commande '.\\start.bat'. Faire cela permettra de lancer et de modifier la base de données.
 
-Attention: ne pas fermer la console qui vient de s'ouvrir.
+\*\*Attention\*\* à ne pas fermer la console qui vient de s'ouvrir.
 
  
 
@@ -78,43 +78,7 @@ Ouvrez "My SQL Workbench". Vous devez cliquer sur le "+" à côté pour créer u
 
 
 
-Vous devez créer une database en tapant dans la console "CREATE DATABASE finalproject", et cliquer sur l'éclair pour créer la database. Puis vous pouvez réduire la fenêtre sans fermer
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Vous devez créer une database en tapant dans la console "CREATE DATABASE finalproject", et cliquer sur l'éclair pour créer la database. Puis vous pouvez réduire la fenêtre et la console sans fermer.
 
 
 
@@ -122,7 +86,19 @@ Vous devez créer une database en tapant dans la console "CREATE DATABASE finalp
 
 
 
-Après installation de VS, pour voir  le code que j'ai crée pour le site, …
+<ins> Étape 1: </ins>
+
+
+
+Après installation de VS, pour voir le code que j'ai crée pour le site, le nom du document est "Projet Final TANG Victor", il se trouve dans le dossier du même nom.
+
+
+
+<ins> Étape 2: </ins>
+
+
+
+Pour pouvoir voir mon site en chair et en pixel, il faut aller dans "Affichage" \&#8594 "Terminal"
 
 
 
