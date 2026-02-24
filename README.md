@@ -30,7 +30,7 @@ Après installation de Git, pour accéder à mon travail, il faut faire un clic 
 
 Ceci étant fait, voici le lien de mon Git à copier coller pour pouvoir récupérer mon travail:
 
-`.git clone https://github.com/Yoki990/TANG-Victor-TP-Recette`
+`git clone https://github.com/Yoki990/TANG-Victor-TP-Recette`
 
 
 
@@ -104,7 +104,7 @@ Les packages a installés sont :
 2. *Microsoft.EntityFramework.Tools* avec la dernière version débutant par "9.0"
 3. *Pomelo.EntityFrameworkCore.MySql* avec la dernière version
 
-&nbsp;						
+ 
 
 <ins> Étape 3: </ins>
 
