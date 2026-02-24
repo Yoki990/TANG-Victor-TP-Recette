@@ -194,18 +194,21 @@ Pour revenir à l'accueil, soit vous cliquer sur le bouton prévu à cet effet, 
 
 Merci à vous d'avoir consulté mon site :wink:
 
-
-<img width="1919" height="1072" alt="Capture d&#39;écran 2026-02-24 110301" src="https://github.com/user-attachments/assets/519dd0b8-3bb9-42bd-9233-590dbdabaca7" />
 Accueil du site
+<img width="1919" height="1072" alt="Capture d&#39;écran 2026-02-24 110301" src="https://github.com/user-attachments/assets/519dd0b8-3bb9-42bd-9233-590dbdabaca7" />
+
 <br>
-<img width="1918" height="1068" alt="Capture d&#39;écran 2026-02-24 110319" src="https://github.com/user-attachments/assets/cfeadbfd-891e-440b-a3f4-a3eb6e748020" />
 Tableau figurant les ingrédients
+<img width="1918" height="1068" alt="Capture d&#39;écran 2026-02-24 110319" src="https://github.com/user-attachments/assets/cfeadbfd-891e-440b-a3f4-a3eb6e748020" />
+
 <br>
-<img width="1919" height="1070" alt="Capture d&#39;écran 2026-02-24 110338" src="https://github.com/user-attachments/assets/2f98da18-be8b-4d1a-a8ff-0e21bd4de676" />
 Ajout d'une recette
+<img width="1919" height="1070" alt="Capture d&#39;écran 2026-02-24 110338" src="https://github.com/user-attachments/assets/2f98da18-be8b-4d1a-a8ff-0e21bd4de676" />
+
 <br>
-<img width="1918" height="1069" alt="Capture d&#39;écran 2026-02-24 110416" src="https://github.com/user-attachments/assets/a016e8de-04ad-4480-82a3-c3dcb11714ae" />
 Ajout d'un ingrédient
+<img width="1918" height="1069" alt="Capture d&#39;écran 2026-02-24 110416" src="https://github.com/user-attachments/assets/a016e8de-04ad-4480-82a3-c3dcb11714ae" />
+
 <br>
 <hr>
 
