@@ -6,9 +6,9 @@ Avant de consulter mon site et tout le code, il faut installer:
 
 Git : https://git-scm.com/
 
-Visual Studio ou VS (en l'installant via le .exe)
+Visual Studio ou *VS* (en l'installant via le .exe)
 
-MySQL Workbench (pour faire fonctionner ma base de données ou BDD)
+MySQL Workbench (pour faire fonctionner ma base de données ou *BDD*)
 
 
 
