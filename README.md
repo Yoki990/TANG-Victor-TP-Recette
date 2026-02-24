@@ -1,4 +1,4 @@
-#  					      **Bienvenue sur le site *Miam Fridge***
+# **Bienvenue sur le site *Miam Fridge***
 
 
 
@@ -6,7 +6,7 @@ Avant de consulter mon site et le code derrière ce dernier, il faut installer:
 
 * Git : https://git-scm.com/
 * Visual Studio ou *VS* (en l'installant via le .exe)
-* MySQL Workbench (pour faire fonctionner ma base de données ou *BDD*
+* MySQL Workbench (pour faire fonctionner ma base de données ou *BDD*)
 
 
 
@@ -34,6 +34,10 @@ Ceci étant fait, voici le lien de mon Git à copier coller pour pouvoir récup�
 
 
 
+<br>
+
+
+
 * Pour MySQL Workbench:
 
 
@@ -42,7 +46,7 @@ Ceci étant fait, voici le lien de mon Git à copier coller pour pouvoir récup�
 
 
 
-Après installation de MySQL et d'ouvrir ma base de données, vous devez copier le dossier "SQL-Portable" qui est dans le dossier compressé et le coller sur le disque C: .
+Après installation de MySQL et d'ouvrir ma base de données, vous devez copier le dossier "SQL-Portable" fourni et le coller sur le disque C: .
 
 
 
@@ -69,6 +73,10 @@ Ouvrez "My SQL Workbench". Il faut cliquer sur le "+" à côté pour créer une 
 
 
 Pour pouvoir créer une database, il faut taper dans la console `CREATE DATABASE finalproject`, et cliquer sur l'éclair pour créer la database. Enfin, vous pouvez réduire la fenêtre et la console sans fermer.
+
+
+
+<br>
 
 
 
@@ -126,7 +134,7 @@ Vous êtes actuellement sur la page d'accueil du site.
 
 
 
-<ins>Pour les recettes:</ins>
+<ins>**Pour les recettes:**</ins>
 
 
 
@@ -146,7 +154,7 @@ Pour pouvoir supprimer une recette, vous pouvez cliquer le bloc note attitré à
 
 
 
-<ins>Pour les recettes:</ins>
+<ins>**Pour les ingrédients:**</ins>
 
 
 
@@ -168,11 +176,11 @@ Pour pouvoir modifier et supprimer un ingrédient, ce sont les mêmes étapes qu
 
 
 
-<ins>Accueil:</ins>
+<ins>**Accueil:**</ins>
 
 
 
-Pour revenir à l'accueil, soit vous cliquer sur le bouton prévu à cette effet, ou de cliquer sur "Miam Fridge".
+Pour revenir à l'accueil, soit vous cliquer sur le bouton prévu à cet effet, soit de cliquer sur "Miam Fridge".
 
 
 
