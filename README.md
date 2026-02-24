@@ -58,7 +58,7 @@ Après installation de MySQL, veuillez copier le dossier "SQL-Portable" fourni d
 
 
 
-Ceci étant fait, vous pouvez ouvrir le dossier "SQL-Portable". Vous pouvez faire un clic droit dans le dossier, cliquer sur "Ouvrir dans le Terminal" puis entrer la commande `.\\start.bat`. Cela permettra de pouvoir lancer et de modifier la base de données.
+Ceci étant fait, vous pouvez ouvrir le dossier "SQL-Portable". Vous pouvez faire un clic droit dans le dossier, cliquer sur "Ouvrir dans le Terminal" puis entrer la commande `.\\\\start.bat`. Cela permettra de pouvoir lancer et de modifier la base de données.
 
 :warning: Attention à ne pas fermer la console pendant l'utilisation de la BDD.
 
@@ -122,7 +122,7 @@ Pour pouvoir voir mon site en chair et en pixel, il faut aller dans "Affichage" 
 
 
 
-Une fois toutes ces installations faites, pour accéder à mon site internet, il faut taper dans un moteur de recherche ou en cliquant sur le lien http://localhost:5253
+Une fois toutes ces installations faites, pour accéder à mon site internet, vous pouvez cliquer sur le lien suivant: http://localhost:5253
 
 
 
