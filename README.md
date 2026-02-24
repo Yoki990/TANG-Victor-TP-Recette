@@ -10,9 +10,9 @@ Bienvenue sur le site "Miam Fridge"
 
 Avant de consulter mon site et le code derrière ce dernier, il faut installer:
 
-* Git : https://git-scm.com/ et de faire les instructions d'installation
-* Visual Studio (en l'installant via le .exe) \[VS]
-* MySQL Workbench (pour faire fonctionner ma base de données \[BDD] )
+* Git : https://git-scm.com/
+* Visual Studio ou *VS* (en l'installant via le .exe)
+* MySQL Workbench (pour faire fonctionner ma base de données ou *BDD* )
 
 
 
@@ -114,5 +114,27 @@ Dans la console qui est apparue, il faut taper la commande `cd  P` puis vous app
 
 
 
-Une fois toutes ces installations faites, pour pouvoir accès à mon site internet, le lien internet est: localhost:5253.
+Une dernière étape avant d'aller sur le site : :grin:
+
+
+
+Une fois toutes ces installations faites, pour pouvoir accès à mon site internet, le lien internet est: http://localhost:5253
+
+
+
+<br>
+
+<br>
+
+
+
+**Comment marche le site Miam Fridge?**
+
+
+
+Vous êtes actuellement sur la page d'accueil du site.
+
+
+
+Pour pouvoir ajouter une recette, vous pouvez cliquer sur le bouton prévu à cet effet, à rentrer les informations demandés et de cliquer sur Envoyer.
 
