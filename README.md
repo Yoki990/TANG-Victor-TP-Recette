@@ -8,7 +8,7 @@ Git : https://git-scm.com/
 
 Visual Studio ou *VS* (en l'installant via le .exe)
 
-MySQL Workbench (pour faire fonctionner ma base de données ou *BDD*)
+MySQL Workbench: https://dev.mysql.com/downloads/
 
 
 
@@ -58,7 +58,7 @@ Après installation de MySQL, veuillez copier le dossier "SQL-Portable" fourni d
 
 
 
-Ceci étant fait, vous pouvez ouvrir le dossier "SQL-Portable". Vous pouvez faire un clic droit dans le dossier, cliquer sur "Ouvrir dans le Terminal" puis entrer la commande `.\start.bat`. Cela permettra de pouvoir lancer et de modifier la base de données.
+Ceci étant fait, vous pouvez ouvrir le dossier "SQL-Portable". Vous pouvez faire un clic droit dans le dossier, cliquer sur "Ouvrir dans le Terminal" puis entrer la commande `.\\start.bat`. Cela permettra de pouvoir lancer et de modifier la base de données (BDD).
 
 :warning: Attention à ne pas fermer la console pendant l'utilisation de la BDD.
 
