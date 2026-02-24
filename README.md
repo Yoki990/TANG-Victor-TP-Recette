@@ -104,9 +104,9 @@ Pour utiliser mon site facilement, il faut installer quelques packages, il faut 
 
 Les packages a installés sont :
 
-1. *Microsoft.EntityFrameworkCore* avec la dernière version débutant par "9.0"
-2. *Microsoft.EntityFramework.Tools* avec la dernière version débutant par "9.0"
-3. *Pomelo.EntityFrameworkCore.MySql* avec la dernière version
+1. *Microsoft.EntityFrameworkCore* , dernière version débutant par "9.0"
+2. *Microsoft.EntityFramework.Tools* , dernière version débutant par "9.0"
+3. *Pomelo.EntityFrameworkCore.MySql* , dernière version
 
 <ins> Étape 3: </ins>
 
