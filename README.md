@@ -22,7 +22,7 @@ Avant de consulter mon site et le code derrière ce dernier, il faut installer:
 
 
 
-<ins> \*\*Installation:\*\* </ins>
+\*\*<ins> Installation: </ins>\*\*
 
 
 
@@ -64,7 +64,7 @@ Ceci étant fait, vous pouvez ouvrir le dossier "SQL-Portable". Vous pouvez fair
 
 Attention: ne pas fermer la console qui vient de s'ouvrir.
 
-&nbsp;
+ 
 
 <ins> Étape 3: </ins>
 
@@ -78,7 +78,7 @@ Ouvrez "My SQL Workbench". Vous devez cliquer sur le "+" à côté pour créer u
 
 
 
-Vous devez créer une database en tapant dans la console "CREATE DATABASE finalproject", et cliquer sur l'éclair pour créer la database. Puis vous pouvez réduire la fenêtre sans fermer 
+Vous devez créer une database en tapant dans la console "CREATE DATABASE finalproject", et cliquer sur l'éclair pour créer la database. Puis vous pouvez réduire la fenêtre sans fermer
 
 
 
