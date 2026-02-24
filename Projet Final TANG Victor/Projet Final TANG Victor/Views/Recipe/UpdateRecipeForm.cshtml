@@ -13,22 +13,25 @@
         <form id="Id" asp-action="UpdateTreatForm" method="post">
              
             <div>
-                <label asp-for="Title"></label>
+                <label asp-for="Title">Titre</label>
                 <input asp-for="Title" />
                 <span asp-validation-for="Title"></span>
             </div>
+            <br>
             <div>
-                <label asp-for="Description"></label>
-                <input asp-for="Description" />
+                <label asp-for="Description">Description</label>
+                <textarea asp-for="Description" rows="4" cols="100"> </textarea>
                 <span asp-validation-for="Description"></span>
             </div>
+            <br>
             <div>
-                <label asp-for="Instruction"></label>
-                <input asp-for="Instruction" />
+                <label asp-for="Instruction">Instruction</label>
+                <textarea asp-for="Instruction" rows="4" cols="100"> </textarea>
                 <span asp-validation-for="Instruction"></span>
             </div>
+            <br>
             <div>
-                <label asp-for="Author"></label>
+                <label asp-for="Author">Auteur</label>
                 <input asp-for="Author" />
                 <span asp-validation-for="Author"></span>
             </div>

@@ -33,7 +33,7 @@ body {
 
 
 a.Title {
-    background-color: red;
+    
     font-size: 30px;
     color: black;
     display: flex;
@@ -43,10 +43,15 @@ a.Title {
     margin-right: auto;
     width: fit-content;
     text-decoration: none;
+    font-family: 'Brush Script MT', cursive;
 }
 
-footer{
-    background-color:burlywood;
+footer {
+    font-family: Georgia, serif;
+    border: 5px solid #D6D6D9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
 }
 
 
@@ -72,10 +77,12 @@ li.menu {
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
+        font-family:Georgia, serif;
     }
 
         li a:hover, .dropdown:hover .dropbtn {
-            background-color: orange;
+            background-color: burlywood;
+            color: #9387DE;
         }
 
     li.dropdown{
@@ -111,10 +118,11 @@ li.menu {
 
 .box {
     background-color: #ffffff;
-    border: 2px solid #00bfff;
+    border: 5px solid #D6D6D9;
     padding: 20px;
     margin: 20px;
     border-radius: 20px;
+    font-family: Georgia, serif;
 }
 
 
@@ -122,14 +130,16 @@ table{
     margin-top:2em;
 }
 table, th, td {
-    border: 2px solid red;
+    border: 5px solid #D6D6D9;
     border-collapse: collapse;
+    padding: 20px;
+    margin: 20px;
 }
 
 #ingredient {
-    border: 2px solid red;
-    margin-left:auto;
-    margin-right:auto;
+    border: 2px solid #D6D6D9;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #element{
@@ -137,20 +147,33 @@ table, th, td {
 }
 
 #Ajout {
-    
-    color:black;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+    border: 5px solid #D6D6D9;
     margin-top: 3em;
-    margin-left:auto;
-    margin-right:auto;
-    width: 20em;
-    text-decoration:none;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    text-decoration: none;
+    border-radius: 20px;
+    line-height: 150%;
 }
 
 #Github {
     color: black;
     text-decoration: none;
+}
+
+#capitalize::first-letter{
+    text-transform:capitalize;
+}
+
+#footer{
+    line-height:150%;
+}
+
+div br {
+    font-family: Georgia, serif;
 }
