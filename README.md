@@ -22,7 +22,7 @@ Avant de consulter mon site et le code derrière ce dernier, il faut installer:
 
 
 
-Installation:
+{\*\*Installation:\*\*}
 
 * Pour Git :
 
