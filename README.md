@@ -114,9 +114,7 @@ Une fois toutes ces installations faites, pour pouvoir accès à mon site intern
 
 
 
-<br>
-
-<br>
+<hr>
 
 
 
@@ -182,7 +180,7 @@ Merci à vous d'avoir consulté mon site et sa conception :wink:
 
 
 
-<br>
+<hr>
 
 
 
