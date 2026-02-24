@@ -1,4 +1,4 @@
-Bienvenue sur le site Miam Fridge
+# **Bienvenue sur le site *Miam Fridge***
 
 
 
@@ -16,9 +16,11 @@ MySQL Workbench (pour faire fonctionner ma base de données ou BDD)
 
 
 
-Installation:
+<ins> Installations : </ins>
 
-Pour Git :
+
+
+* Pour Git :
 
 
 
@@ -40,7 +42,7 @@ Ceci étant fait, voici le lien de mon Git à copier coller pour pouvoir récup�
 
 
 
-Pour MySQL Workbench:
+* Pour MySQL Workbench:
 
 
 
@@ -82,7 +84,7 @@ Pour pouvoir créer une database, il faut cliquer sur la connexion fraichement c
 
 
 
-Pour Visual Studio:
+* Pour Visual Studio:
 
 
 
@@ -134,7 +136,7 @@ Une fois toutes ces installations faites, pour pouvoir accès à mon site intern
 
 
 
-Comment marche le site Miam Fridge?
+**Comment marche le site Miam Fridge?**
 
 
 
@@ -154,7 +156,7 @@ Pour pouvoir modifier une recette, vous pouvez cliquer le bloc note attitré à 
 
 
 
-Pour pouvoir supprimer une recette, vous pouvez cliquer le bloc note attitré à cette recette, et la recette disparaîtra.
+Pour pouvoir supprimer une recette, vous pouvez cliquer la poubelle attitrée à cette recette, et la recette disparaîtra.
 
 
 
