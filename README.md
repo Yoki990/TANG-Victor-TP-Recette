@@ -146,7 +146,7 @@ Vous êtes actuellement sur la page d'accueil du site qui affiche la liste des r
 
 
 
-Pour pouvoir ajouter une recette, vous pouvez cliquer sur le bouton prévu à cet effet, à rentrer les informations demandés et de valider.
+Pour pouvoir ajouter une recette, vous pouvez cliquer sur le bouton prévu à cet effet, à rentrer les informations demandées et de valider.
 
 
 
@@ -170,7 +170,7 @@ Pour accéder à la liste des ingrédients, il faut cliquer sur "Liste des ingr�
 
 
 
-Pour pouvoir ajouter un ingrédient, il suffit de cliquer sur le bouton prévu à cet effet, à rentrer les informations demandés et de valider.
+Pour pouvoir ajouter un ingrédient, il suffit de cliquer sur le bouton prévu à cet effet, à rentrer les informations demandées et de valider.
 
 
 
